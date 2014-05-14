@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF9A567D191CBB4A007B2F4B /* Book.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF9A567C191CBB4A007B2F4B /* Book.plist */; };
 		EFC898E4191C798E00BDB2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC898E3191C798E00BDB2EA /* Foundation.framework */; };
 		EFC898E6191C798E00BDB2EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC898E5191C798E00BDB2EA /* CoreGraphics.framework */; };
 		EFC898E8191C798E00BDB2EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC898E7191C798E00BDB2EA /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF9A567C191CBB4A007B2F4B /* Book.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Book.plist; sourceTree = "<group>"; };
 		EFC898E0191C798E00BDB2EA /* MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC898E3191C798E00BDB2EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EFC898E5191C798E00BDB2EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -185,6 +187,7 @@
 			children = (
 				EFC898F8191C798E00BDB2EA /* ViewController.h */,
 				EFC898F9191C798E00BDB2EA /* ViewController.m */,
+				EF9A567C191CBB4A007B2F4B /* Book.plist */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				EFC898FC191C798E00BDB2EA /* Images.xcassets in Resources */,
 				EFC898EE191C798E00BDB2EA /* InfoPlist.strings in Resources */,
 				EFC8991F191C838800BDB2EA /* sit.png in Resources */,
+				EF9A567D191CBB4A007B2F4B /* Book.plist in Resources */,
 				EFC898F7191C798E00BDB2EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +500,7 @@
 				EFC89914191C798E00BDB2EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC89915191C798E00BDB2EA /* Build configuration list for PBXNativeTarget "MVCTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				EFC89917191C798E00BDB2EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

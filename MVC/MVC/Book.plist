@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Updating UILabel with NSTimer stops after switching UIViewControllers</string>
+	<key>author</key>
+	<dict>
+		<key>name</key>
+		<string>user1542125</string>
+		<key>uri</key>
+		<string>http://stackoverflow.com/users/1542125</string>
+	</dict>
+	<key>category</key>
+	<array>
+		<string>ios</string>
+		<string>xcode</string>
+	</array>
+	<key>id</key>
+	<string>http://stackoverflow.com/q/23558795</string>
+</dict>
+</plist>
