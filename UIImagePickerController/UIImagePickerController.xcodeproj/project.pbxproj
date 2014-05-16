@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3A72551925ADB500CF74D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A72541925ADB500CF74D7 /* Foundation.framework */; };
+		EF3A72571925ADB500CF74D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A72561925ADB500CF74D7 /* CoreGraphics.framework */; };
+		EF3A72591925ADB500CF74D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A72581925ADB500CF74D7 /* UIKit.framework */; };
+		EF3A725F1925ADB500CF74D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF3A725D1925ADB500CF74D7 /* InfoPlist.strings */; };
+		EF3A72611925ADB500CF74D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3A72601925ADB500CF74D7 /* main.m */; };
+		EF3A72651925ADB500CF74D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3A72641925ADB500CF74D7 /* AppDelegate.m */; };
+		EF3A72681925ADB500CF74D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3A72661925ADB500CF74D7 /* Main.storyboard */; };
+		EF3A726B1925ADB500CF74D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3A726A1925ADB500CF74D7 /* ViewController.m */; };
+		EF3A726D1925ADB500CF74D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3A726C1925ADB500CF74D7 /* Images.xcassets */; };
+		EF3A72741925ADB500CF74D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A72731925ADB500CF74D7 /* XCTest.framework */; };
+		EF3A72751925ADB500CF74D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A72541925ADB500CF74D7 /* Foundation.framework */; };
+		EF3A72761925ADB500CF74D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A72581925ADB500CF74D7 /* UIKit.framework */; };
+		EF3A727E1925ADB500CF74D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF3A727C1925ADB500CF74D7 /* InfoPlist.strings */; };
+		EF3A72801925ADB500CF74D7 /* UIImagePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3A727F1925ADB500CF74D7 /* UIImagePickerControllerTests.m */; };
+		EF3A728B1925B83D00CF74D7 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3A728A1925B83D00CF74D7 /* UIImage+ImageEffects.m */; };
+		EF3A728D1925BC9500CF74D7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3A728C1925BC9500CF74D7 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF3A72771925ADB500CF74D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3A72491925ADB500CF74D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3A72501925ADB500CF74D7;
+			remoteInfo = UIImagePickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF3A72511925ADB500CF74D7 /* UIImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3A72541925ADB500CF74D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF3A72561925ADB500CF74D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF3A72581925ADB500CF74D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF3A725C1925ADB500CF74D7 /* UIImagePickerController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIImagePickerController-Info.plist"; sourceTree = "<group>"; };
+		EF3A725E1925ADB500CF74D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF3A72601925ADB500CF74D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF3A72621925ADB500CF74D7 /* UIImagePickerController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController-Prefix.pch"; sourceTree = "<group>"; };
+		EF3A72631925ADB500CF74D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF3A72641925ADB500CF74D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF3A72671925ADB500CF74D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3A72691925ADB500CF74D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF3A726A1925ADB500CF74D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF3A726C1925ADB500CF74D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF3A72721925ADB500CF74D7 /* UIImagePickerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePickerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3A72731925ADB500CF74D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF3A727B1925ADB500CF74D7 /* UIImagePickerControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIImagePickerControllerTests-Info.plist"; sourceTree = "<group>"; };
+		EF3A727D1925ADB500CF74D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF3A727F1925ADB500CF74D7 /* UIImagePickerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImagePickerControllerTests.m; sourceTree = "<group>"; };
+		EF3A72891925B83D00CF74D7 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		EF3A728A1925B83D00CF74D7 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		EF3A728C1925BC9500CF74D7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3A724E1925ADB500CF74D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3A728D1925BC9500CF74D7 /* AssetsLibrary.framework in Frameworks */,
+				EF3A72571925ADB500CF74D7 /* CoreGraphics.framework in Frameworks */,
+				EF3A72591925ADB500CF74D7 /* UIKit.framework in Frameworks */,
+				EF3A72551925ADB500CF74D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3A726F1925ADB500CF74D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3A72741925ADB500CF74D7 /* XCTest.framework in Frameworks */,
+				EF3A72761925ADB500CF74D7 /* UIKit.framework in Frameworks */,
+				EF3A72751925ADB500CF74D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF3A72481925ADB500CF74D7 = {
+			isa = PBXGroup;
+			children = (
+				EF3A725A1925ADB500CF74D7 /* UIImagePickerController */,
+				EF3A72791925ADB500CF74D7 /* UIImagePickerControllerTests */,
+				EF3A72531925ADB500CF74D7 /* Frameworks */,
+				EF3A72521925ADB500CF74D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3A72521925ADB500CF74D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A72511925ADB500CF74D7 /* UIImagePickerController.app */,
+				EF3A72721925ADB500CF74D7 /* UIImagePickerControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3A72531925ADB500CF74D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A728C1925BC9500CF74D7 /* AssetsLibrary.framework */,
+				EF3A72541925ADB500CF74D7 /* Foundation.framework */,
+				EF3A72561925ADB500CF74D7 /* CoreGraphics.framework */,
+				EF3A72581925ADB500CF74D7 /* UIKit.framework */,
+				EF3A72731925ADB500CF74D7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF3A725A1925ADB500CF74D7 /* UIImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A72631925ADB500CF74D7 /* AppDelegate.h */,
+				EF3A72641925ADB500CF74D7 /* AppDelegate.m */,
+				EF3A72661925ADB500CF74D7 /* Main.storyboard */,
+				EF3A72691925ADB500CF74D7 /* ViewController.h */,
+				EF3A726A1925ADB500CF74D7 /* ViewController.m */,
+				EF3A72891925B83D00CF74D7 /* UIImage+ImageEffects.h */,
+				EF3A728A1925B83D00CF74D7 /* UIImage+ImageEffects.m */,
+				EF3A726C1925ADB500CF74D7 /* Images.xcassets */,
+				EF3A725B1925ADB500CF74D7 /* Supporting Files */,
+			);
+			path = UIImagePickerController;
+			sourceTree = "<group>";
+		};
+		EF3A725B1925ADB500CF74D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A725C1925ADB500CF74D7 /* UIImagePickerController-Info.plist */,
+				EF3A725D1925ADB500CF74D7 /* InfoPlist.strings */,
+				EF3A72601925ADB500CF74D7 /* main.m */,
+				EF3A72621925ADB500CF74D7 /* UIImagePickerController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF3A72791925ADB500CF74D7 /* UIImagePickerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A727F1925ADB500CF74D7 /* UIImagePickerControllerTests.m */,
+				EF3A727A1925ADB500CF74D7 /* Supporting Files */,
+			);
+			path = UIImagePickerControllerTests;
+			sourceTree = "<group>";
+		};
+		EF3A727A1925ADB500CF74D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A727B1925ADB500CF74D7 /* UIImagePickerControllerTests-Info.plist */,
+				EF3A727C1925ADB500CF74D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3A72501925ADB500CF74D7 /* UIImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3A72831925ADB500CF74D7 /* Build configuration list for PBXNativeTarget "UIImagePickerController" */;
+			buildPhases = (
+				EF3A724D1925ADB500CF74D7 /* Sources */,
+				EF3A724E1925ADB500CF74D7 /* Frameworks */,
+				EF3A724F1925ADB500CF74D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImagePickerController;
+			productName = UIImagePickerController;
+			productReference = EF3A72511925ADB500CF74D7 /* UIImagePickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF3A72711925ADB500CF74D7 /* UIImagePickerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3A72861925ADB500CF74D7 /* Build configuration list for PBXNativeTarget "UIImagePickerControllerTests" */;
+			buildPhases = (
+				EF3A726E1925ADB500CF74D7 /* Sources */,
+				EF3A726F1925ADB500CF74D7 /* Frameworks */,
+				EF3A72701925ADB500CF74D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3A72781925ADB500CF74D7 /* PBXTargetDependency */,
+			);
+			name = UIImagePickerControllerTests;
+			productName = UIImagePickerControllerTests;
+			productReference = EF3A72721925ADB500CF74D7 /* UIImagePickerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3A72491925ADB500CF74D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Code Fellows";
+				TargetAttributes = {
+					EF3A72711925ADB500CF74D7 = {
+						TestTargetID = EF3A72501925ADB500CF74D7;
+					};
+				};
+			};
+			buildConfigurationList = EF3A724C1925ADB500CF74D7 /* Build configuration list for PBXProject "UIImagePickerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3A72481925ADB500CF74D7;
+			productRefGroup = EF3A72521925ADB500CF74D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3A72501925ADB500CF74D7 /* UIImagePickerController */,
+				EF3A72711925ADB500CF74D7 /* UIImagePickerControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3A724F1925ADB500CF74D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3A726D1925ADB500CF74D7 /* Images.xcassets in Resources */,
+				EF3A725F1925ADB500CF74D7 /* InfoPlist.strings in Resources */,
+				EF3A72681925ADB500CF74D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3A72701925ADB500CF74D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3A727E1925ADB500CF74D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3A724D1925ADB500CF74D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3A728B1925B83D00CF74D7 /* UIImage+ImageEffects.m in Sources */,
+				EF3A726B1925ADB500CF74D7 /* ViewController.m in Sources */,
+				EF3A72651925ADB500CF74D7 /* AppDelegate.m in Sources */,
+				EF3A72611925ADB500CF74D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3A726E1925ADB500CF74D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3A72801925ADB500CF74D7 /* UIImagePickerControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF3A72781925ADB500CF74D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3A72501925ADB500CF74D7 /* UIImagePickerController */;
+			targetProxy = EF3A72771925ADB500CF74D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF3A725D1925ADB500CF74D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3A725E1925ADB500CF74D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF3A72661925ADB500CF74D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3A72671925ADB500CF74D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3A727C1925ADB500CF74D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3A727D1925ADB500CF74D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF3A72811925ADB500CF74D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF3A72821925ADB500CF74D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3A72841925ADB500CF74D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImagePickerController/UIImagePickerController-Prefix.pch";
+				INFOPLIST_FILE = "UIImagePickerController/UIImagePickerController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF3A72851925ADB500CF74D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImagePickerController/UIImagePickerController-Prefix.pch";
+				INFOPLIST_FILE = "UIImagePickerController/UIImagePickerController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF3A72871925ADB500CF74D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIImagePickerController.app/UIImagePickerController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImagePickerController/UIImagePickerController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIImagePickerControllerTests/UIImagePickerControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF3A72881925ADB500CF74D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIImagePickerController.app/UIImagePickerController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImagePickerController/UIImagePickerController-Prefix.pch";
+				INFOPLIST_FILE = "UIImagePickerControllerTests/UIImagePickerControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3A724C1925ADB500CF74D7 /* Build configuration list for PBXProject "UIImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3A72811925ADB500CF74D7 /* Debug */,
+				EF3A72821925ADB500CF74D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3A72831925ADB500CF74D7 /* Build configuration list for PBXNativeTarget "UIImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3A72841925ADB500CF74D7 /* Debug */,
+				EF3A72851925ADB500CF74D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF3A72861925ADB500CF74D7 /* Build configuration list for PBXNativeTarget "UIImagePickerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3A72871925ADB500CF74D7 /* Debug */,
+				EF3A72881925ADB500CF74D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF3A72491925ADB500CF74D7 /* Project object */;
+}
