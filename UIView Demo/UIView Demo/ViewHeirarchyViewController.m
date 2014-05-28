@@ -10,9 +10,14 @@
 
 @interface ViewHeirarchyViewController ()
 
-@property (nonatomic, strong) UIView *redSquare;
+@property (nonatomic, strong) UIView *redSquare, *greenSquare;
 @property (nonatomic, weak) IBOutlet UIView *blueDropZone;
 @property (nonatomic) BOOL animateDropZone;
+
+@property (nonatomic, strong) UIDynamicAnimator *animator;
+@property (nonatomic, strong) UIGravityBehavior *gravity;
+@property (nonatomic, strong) UIAttachmentBehavior *attachment;
+@property (nonatomic, strong) UICollisionBehavior *collision;
 @end
 
 @implementation ViewHeirarchyViewController
@@ -28,6 +33,24 @@
     _redSquare.layer.borderColor = [UIColor darkGrayColor].CGColor;
     _redSquare.layer.borderWidth = 4.f;
     [self.view addSubview:_redSquare];
+    
+    CGRect greenSquareFrame = CGRectMake(160, 320, 40, 40);
+    _greenSquare = [[UIView alloc] initWithFrame:greenSquareFrame];
+    _greenSquare.backgroundColor = [UIColor greenColor];
+    _greenSquare.layer.borderColor = [UIColor darkGrayColor].CGColor;
+    _greenSquare.layer.borderWidth = 4.f;
+    [self.view addSubview:_greenSquare];
+
+    // Behaviors
+    _animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
+    _gravity = [[UIGravityBehavior alloc]initWithItems:@[_greenSquare, _redSquare]];
+    
+    [_animator addBehavior:_gravity];
+    
+    _collision = [[UICollisionBehavior alloc]initWithItems:@[_greenSquare, _redSquare]];
+    _collision.translatesReferenceBoundsIntoBoundary = YES;
+
+    [_animator addBehavior:_collision];
 }
 
 - (CAAnimation *)glowAnimation

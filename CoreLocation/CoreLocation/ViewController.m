@@ -118,6 +118,8 @@
     [self.searchDisplayController setActive:NO animated:YES];
     [self.mapView addAnnotation:[self.response.mapItems[indexPath.row]placemark]];
     
+    MKPlacemark *placemark = [self.response.mapItems[indexPath.row] placemark];
+    
     // ^ Keep in mind, if the place you selected is outside of the map region, you'll need to zoom out to see it or implement a method that does that automatically.
 }
 
