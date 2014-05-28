@@ -13,11 +13,11 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bIH-j6-3MN">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jSx-Kw-dhU">
                                     <size key="itemSize" width="80" height="80"/>
@@ -33,13 +33,27 @@
                                             <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cJK-hy-19c">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cJK-hy-19c">
                                                     <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="cJK-hy-19c" secondAttribute="trailing" id="9NC-U2-8QR"/>
+                                            <constraint firstItem="cJK-hy-19c" firstAttribute="leading" secondItem="IZg-Kd-sFq" secondAttribute="leading" id="Af3-9B-GZn"/>
+                                            <constraint firstAttribute="trailing" secondItem="cJK-hy-19c" secondAttribute="trailing" id="RAa-NY-QAU"/>
+                                            <constraint firstAttribute="bottom" secondItem="cJK-hy-19c" secondAttribute="bottom" id="TDs-8A-vx4"/>
+                                            <constraint firstItem="cJK-hy-19c" firstAttribute="leading" secondItem="IZg-Kd-sFq" secondAttribute="leading" id="UZS-bX-ddc"/>
+                                            <constraint firstAttribute="bottom" secondItem="cJK-hy-19c" secondAttribute="bottom" id="c8u-6i-dL2"/>
+                                            <constraint firstItem="cJK-hy-19c" firstAttribute="top" secondItem="IZg-Kd-sFq" secondAttribute="top" id="dbe-gJ-mAJ"/>
+                                            <constraint firstAttribute="bottom" secondItem="cJK-hy-19c" secondAttribute="bottom" id="efo-f0-Jwl"/>
+                                            <constraint firstItem="cJK-hy-19c" firstAttribute="top" secondItem="IZg-Kd-sFq" secondAttribute="top" id="kLG-Cz-zLh"/>
+                                            <constraint firstItem="cJK-hy-19c" firstAttribute="top" secondItem="IZg-Kd-sFq" secondAttribute="top" id="t6j-a6-oMs"/>
+                                            <constraint firstItem="cJK-hy-19c" firstAttribute="leading" secondItem="IZg-Kd-sFq" secondAttribute="leading" id="tLl-x1-5fK"/>
+                                            <constraint firstAttribute="trailing" secondItem="cJK-hy-19c" secondAttribute="trailing" id="zP1-c4-dTv"/>
+                                        </constraints>
                                         <connections>
                                             <outlet property="puppyView" destination="cJK-hy-19c" id="hPE-gy-FML"/>
                                         </connections>
@@ -64,6 +78,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
